@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.controler{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #191513;
+}
+
+.navbar{
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: auto;
+
+}
+
+.logo img{
+    width: 150px;
+    margin: 35px 0;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #999;
+    padding: 5px 2px;
+    font-size: 12px;
+
+}
+
+nav ul li a:hover{  
+    color: #fff;
+    border-bottom: 3px solid #e67a32;
+
+}
+.content-row{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.left-col,
+.rahit-col{
+    flex-basis: 50%;
+}
+
+.left-col{
+    padding: 50px 0;
+}
+
+.search{
+    width: 260px;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    border: 1px solid #dd6515;
+    border-radius: 20px;
+
+}
+
+.search img{
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.search input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    color: #999;
+    outline: none;
+    font-size: 14px;
+}
+
+hr{
+    width: 160px;
+    height: 2.5px;
+    background: #dd6515;
+    margin: 30px 0;
+    border: none;
+}
+
+h1{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+p{
+    color: #999;
+    margin: 30px 0;
+    font-size: 14px ;
+    line-height: 22px;
+}
+.indicator{
+    display: flex;
+}
+span{
+    width: 5px;
+    height: 5px;
+    border: 2px solid #dd6515 ;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.one{
+    background: #dd6515;
+}
+.rahit-col img{
+    width: 97%;
+}
+
+.social{
+    position: absolute;
+    right: 30px;
+    top: 43%;
+    transform: translate(-50%);
+}
+.social img{
+    width: 25px;
+    display: block;
+    margin: 20px 0;
+}
+.social img:hover{
+    border-bottom: 1.5px solid #ffa163;
+    
+}
